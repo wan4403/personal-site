@@ -1,0 +1,163 @@
+﻿@import url("./styles/fonts/fonts.css");
+
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}     
+
+.contact {
+    text-decoration: none;
+    font-family: Bebas_Neue !important;
+}
+
+.sa {
+    height: 15vh;
+}
+
+.navTable {
+    padding-bottom: 25px;
+}                         
+
+.indexButtons {
+    font-family: Bebas_Neue;
+
+    color: dimgray;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+
+    transition:.5s;
+
+    text-decoration: none !important;
+}
+
+.indexButtons:hover { 
+    color:black;
+    font-weight: bold;
+}
+
+.enterButton {
+    font-family: Code_Pro_Demo;
+
+    color: black;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+
+    font-size: 50px;
+
+    transition: .5s;
+    text-decoration: none !important;
+}
+
+.enterButton:hover { 
+    font-weight: bold;
+
+    padding: 5px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    color: dimgray;
+    font-family: Bebas_Neue;
+
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+
+    transition:.5s;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    font-family: Code_Pro_Demo;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color:black;
+    font-weight: bold;
+}
+
+.img_wrap {
+    position: relative;
+}
+
+.img_test {
+    background: black;
+}
+
+.centerMe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    display: table;
+}
+
+.img_description {
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+
+    font-weight: bold;
+    float: left;
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+    top: 50%;
+
+    transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_description {
+  transition: 0.5s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.img_wrap:hover .sa {
+    transition: 0.5s;
+    opacity: 0.5;
+}
